@@ -1,0 +1,8 @@
+.area {
+    background: #F6FAFF;
+    width: calc(100% - 60px);
+    height: calc(100% - 5%);
+    position: absolute;
+    top: 5%;
+    left: 60px;
+}
