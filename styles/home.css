@@ -317,6 +317,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.notification__block--selector {
+    list-style: none;
+    color: black;
+}
+
+.notification__block--selector:hover {
+    background-color: rgba(111, 207, 151, .2);
+}
+
 .notification__block__date {
     width: 100%;
 }
@@ -330,11 +339,18 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .notification__block__historic__note h2 {
     font-weight: 600;
     font-size: 13px;
+}
+
+.notification__note__separator {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.2);
 }
 
 ::-webkit-scrollbar { 
