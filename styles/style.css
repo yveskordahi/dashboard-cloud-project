@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
 .area {
     background: #F6FAFF;
     width: calc(100% - 60px);
-    height: calc(100% - 5%);
+    height: calc(100% - 7%);
     position: absolute;
-    top: 5%;
+    top: 7%;
     left: 60px;
 }
