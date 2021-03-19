@@ -257,7 +257,7 @@
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #bbd9f5;
 }
 
 /* When the checkbox is checked, add a blue background */
