@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/graph.css">
+    <link rel="stylesheet" href="styles/addUsers.css">
     <title>Graphs et statistiques</title>
 </head>
 <body>
@@ -95,19 +95,53 @@
         </nav>
 
         <div class="area">
-          <div class="home">
-            <h2 class="home__title">Graphs et statistiques</h2>
-            <div class="home__content">
-                <div class="content__graph">
-                    <div id="inner">
-                        <div class="inner__navbar">
-                            <h3 class="inner__navbar-text">Clients enregistrés</h3>
-                            <div class="inner__navbar__show-more-div">
-                                <input type="date" name="dateofbirth" id="dateofbirth">
-                            </div>  
+          <div class="home__add-users">
+            <h2 class="home__add-users__title">Ajouter un utilisateur</h2>
+            <div class="home__content__add-users">
+                <div class="form__container">
+                    <form action="action_page.php">
+
+                        <div class="form__title">
+                            <p>Veuillez ajouter les informations de l’utilisateur</p>
+                            <h2>Profil utilisateur</h2>
                         </div>
-                    </div>
-                </div>
+                    
+                      <div class="label__container">
+                        <label for="fname">Prénom :</label>
+                        <input class="input__add-users" type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div> 
+                  
+                      <div class="label__container">
+                        <label for="fname">Nom :</label>
+                        <input class="input__add-users" type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div>
+
+                      <div class="label__container">
+                        <label for="fname">E-mail :</label>
+                        <input class="input__add-users" type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div> 
+
+                      <div class="label__container">
+                        <label for="fname">Mot de passe :</label>
+                        <input class="input__add-users" type="password" id="fname" name="firstname" placeholder="Your name..">
+                      </div> 
+
+                      <div class="label__container">
+                        <label for="fname">Confirmer le mot de passe :</label>
+                        <input class="input__add-users" type="password" id="fname" name="firstname" placeholder="Your name..">
+                      </div> 
+                  
+                      <!-- <input type="submit" value="Submit"> -->
+                      <div class="token__block">
+                        <div class="add__users__button">
+                            <a href=""><button>Enregistrer</button></a>
+                        </div>
+                        <div class="back__button">
+                            <a href=""><button>Annuler</button></a>
+                        </div>
+                      </div>
+                    </form>
+                  </div> 
             </div>
           </div>
         </div>
