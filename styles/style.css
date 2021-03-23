@@ -183,6 +183,12 @@ section {
     }
 }
 
+@media (max-width: 400px) {
+    section {
+        height: 65vh;
+    }
+}
+
 @media (max-width: 310px) {
     .add__users__button {
         display: flex;
