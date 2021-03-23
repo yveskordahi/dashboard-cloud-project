@@ -22,6 +22,14 @@
     justify-content: center;
 }
 
+.home__content__create__account {
+    display: flex;
+    width: auto;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+}
+
 .form__container {
     width: 75%;
 }
@@ -107,6 +115,22 @@
     display: inline-block;
     font-size: 13px;
     border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.create__account-btn button {
+    margin-top: 25px;
+    background-color: #2F80ED;
+    border: none;
+    color: white;
+    padding: 6px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 7px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     cursor: pointer;
